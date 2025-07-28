@@ -3,7 +3,7 @@ import './globals.css';
 import { Poppins } from 'next/font/google';
 import { ReactNode } from 'react';
 import LayoutWrapper from '@/components/LayoutWrapper'; // ✅ import here
-import 'flatpickr/dist/flatpickr.min.css'
+// import 'flatpickr/dist/flatpickr.min.css'
 
 
 const poppins = Poppins({

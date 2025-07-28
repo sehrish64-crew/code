@@ -3,7 +3,7 @@
 import { useState } from "react";
 import { Listbox } from "@headlessui/react";
 import { CheckIcon, ChevronDownIcon } from "@heroicons/react/20/solid";
-import flatpickr from "flatpickr";
+// import flatpickr from "flatpickr";
 
 export default function Patientdetail() {
   const [selectedTab, setSelectedTab] = useState(0);
@@ -16,9 +16,9 @@ export default function Patientdetail() {
     "Evolution",
     "Quotes",
   ];
-  flatpickr("#datepicker", {
-    dateFormat: "Y-m-d", // or any other format
-  });
+  // flatpickr("#datepicker", {
+  //   dateFormat: "Y-m-d", // or any other format
+  // });
   const openSlots = [
     { id: 1, name: "No" },
     { id: 2, name: "Yes - Light" },

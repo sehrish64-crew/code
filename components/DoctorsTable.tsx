@@ -17,7 +17,7 @@ import Swal from "sweetalert2";
 import { useForm } from "react-hook-form";
 import { Listbox } from "@headlessui/react";
 import { CheckIcon, ChevronDownIcon } from "@heroicons/react/20/solid";
-import flatpickr from "flatpickr";
+// import flatpickr from "flatpickr";
 export default function DoctorsTable() {
   const doctors: Doctor[] = [
     {
@@ -168,9 +168,9 @@ export default function DoctorsTable() {
   ];
   const [languageselected, languagesetSelected] = useState(languages[0]);
 
-  flatpickr("#datepicker", {
-    dateFormat: "Y-m-d", // or any other format
-  });
+  // flatpickr("#datepicker", {
+  //   dateFormat: "Y-m-d", // or any other format
+  // });
 
   return (
     <div className="flex flex-col h-full bg-white lg:rounded-r-lg">

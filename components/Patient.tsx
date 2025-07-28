@@ -15,7 +15,7 @@ interface Doctor {
 import { useState } from "react";
 import Swal from "sweetalert2";
 import { useForm } from "react-hook-form";
-import flatpickr from "flatpickr";
+// import flatpickr from "flatpickr";
 
 export default function Patient() {
   const doctors: Doctor[] = [
@@ -162,9 +162,9 @@ export default function Patient() {
     formState: { errors },
   } = useForm();
 
-  flatpickr("#datepicker", {
-    dateFormat: "Y-m-d", // or any other format
-  });
+  // flatpickr("#datepicker", {
+  //   dateFormat: "Y-m-d", // or any other format
+  // });
 
   return (
     <div className="flex flex-col h-full bg-white lg:rounded-r-lg">
